@@ -3,9 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <title>First HTML</title>
-    
+    <style>
+        p {
+            border: 2px solid powderblue;
+            padding: 30px;
+        }
+    </style>
+
 </head>
 <body>
+    <h1 style="font-size:60px;">Heading 1</h1>
     <p>Hello </p>
     <p>Hello welcome to the HTML first page</p>
     <dl>
@@ -22,7 +29,7 @@
             A capital
         </dd>
         <dt>
-            Rourkela            
+            Rourkela
         </dt>
         <dd> An Industrial city </dd>
         <dt>
@@ -33,5 +40,50 @@
         </dd>
     </dl>
 
+    <div>
+        <table style="border:1px solid black; text-align:center;font-family:Arial">
+            <tr>
+                <th colspan="5">
+                    Employee Details
+                </th>
+            </tr>
+
+            <tr>
+                <td>
+                    Name
+                </td>
+                <td>
+                    Gender
+                </td>
+                <td>
+                    Salary
+                </td>
+                <td>
+                    City
+                </td>
+                <td>
+                    Department
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <textarea id="TextArea1" rows="2" cols="20"></textarea>
+                </td>
+                <td>
+                    <textarea id="TextArea2" rows="2" cols="20"></textarea>
+                </td>
+                <td>
+                    <textarea id="TextArea3" rows="2" cols="20"></textarea>
+                </td>
+                <td>
+                    <textarea id="TextArea4" rows="2" cols="20"></textarea>
+                </td>
+                <td>
+                    <textarea id="TextArea5" rows="2" cols="20"></textarea>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
